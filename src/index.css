@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --leva-sizes-rootWidth: 340px;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: #222838; /* Dark background color */
+  background-image: linear-gradient(19deg, #222838 0%, #2d3440 100%); /* Gradient from dark blue-gray to a slightly lighter gray-blue */
+}
+
+body.greenScreen {
+  background-color: #dbeafe; /* Soft blue background for the greenScreen class */
+  background-image: none;
+}
